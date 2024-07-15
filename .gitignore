@@ -1,1 +1,6 @@
 node_modules
+.env
+.prettierignore
+.prettierrc.json
+.eslintignore
+.eslintrc.json
