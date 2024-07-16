@@ -8,7 +8,7 @@ const articledata = [
   },
   {
     title: 'Is Javascript the coding language for me?',
-    content: 'Some think that Javascript is the most popular language for a reason',
+    content: 'Some think that Javascript is the most popular language for a reason...',
     author_id: 2,
   },
   {
