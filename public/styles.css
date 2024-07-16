@@ -10,3 +10,10 @@ main {
 .comment-card {
     width: 80%;
 }
+
+.card-title {
+    color: #00181a;
+}
+.card-body {
+    background-color: #00585a;
+}
