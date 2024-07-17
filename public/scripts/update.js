@@ -28,6 +28,4 @@ const updateForm = async (event) => {
   }
 };
 
-document
-.querySelector('.update-form')
-.addEventListener('submit', updateForm);
+document.querySelector('.update-form').addEventListener('submit', updateForm);

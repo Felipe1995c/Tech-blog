@@ -17,3 +17,6 @@ main {
 .card-body {
     background-color: #00585a;
 }
+a {
+    color: white;
+}

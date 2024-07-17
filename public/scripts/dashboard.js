@@ -22,6 +22,4 @@ const articleForm = async (event) => {
     }
   };
 
-document
-.querySelector('.article-form')
-.addEventListener('submit', articleForm);
+document.querySelector('.article-form').addEventListener('submit', articleForm);
