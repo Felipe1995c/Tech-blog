@@ -1,29 +1,26 @@
 
 const deleteurl = window.location.pathname;
-const deleteid = url.substring(deleteurl.lastIndexOf('/') + 1);
-console.log('delete id' + deleteid);
+const deleteid = deleteurl.substring(deleteurl.lastIndexOf('/') + 1);
+console.log('delete id: ' + deleteid);
 
 const deleteArticle = async (event) => {
     event.preventDefault();
 
-    if (id) {
+    if (deleteid) { 
         const response = await fetch(`/api/articles/${deleteid}`, {
-        method: "DELETE",
-        body: JSON.stringify({
-            deleteid: id,
-        }),
-        headers: { "Content-Type": "application/json" },
+            method: "DELETE",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                title, content
+            })
         });
 
         if (response.ok) {
-        document.location.replace("/");
+            document.location.replace("/");
         } else {
-        alert("Failed to delete!");
+            alert("Failed to delete!");
         }
     }
 };
 
-
-document
-.querySelector('.deleteBtn')
-.addEventListener('click', deleteArticle);
+document.querySelector('.deleteBtn').addEventListener('click', deleteArticle);
