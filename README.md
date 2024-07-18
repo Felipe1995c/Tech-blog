@@ -55,8 +55,11 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 ## Mock-Up
 
 The following animation demonstrates the application functionality:
+![Begin by signing up/logging in to be able to add or update articles](/public/images/techBlog-log-in.jpg)
+![This is what you should be welcomed to](/public/images/techBlog-dash.jpg).
+![This is what it would look like to add or update an article](/public/images/techBlog-articles.jpg)
 
-![Animation cycles through signing into the app, clicking on buttons, and updating blog posts.](./Assets/14-mvc-homework-demo-01.gif)
+[Link to the webpage](https://tech-blog-j8jd.onrender.com/)
 
 ## Getting Started
 
@@ -65,3 +68,9 @@ Your application’s folder structure must follow the Model-View-Controller para
 You’ll also need the [dotenv package](https://www.npmjs.com/package/dotenv) to use environment variables, the [bcrypt package](https://www.npmjs.com/package/bcrypt) to hash passwords, and the [express-session](https://www.npmjs.com/package/express-session) and [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize) packages to add authentication.
 
 **Note**: The [express-session](https://www.npmjs.com/package/express-session) package stores the session data on the client in a cookie. When you are idle on the site for more than a set time, the cookie will expire and you will be required to log in again to start a new session. This is the default behavior and you do not have to do anything to your application other than implement the npm package.
+
+## Usage 
+
+Log in or sign up to the tech blog where you and other users can share ideas and comment on articles  posted by others.
+You can see all the different articles in the blog in your dashboard where you can access by a click. 
+There is also a log out button when you are all finished blogging.
